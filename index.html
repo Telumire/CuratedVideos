@@ -617,6 +617,8 @@ Error message and password prompt
 
 <li>Captain Disillusion</li>
 
+<li>Cas van de Pol</li>
+
 <li>category</li>
 
 <li>CG Boost</li>
@@ -955,6 +957,8 @@ Error message and password prompt
 
 <li>Theme switcher</li>
 
+<li>there oughta be</li>
+
 <li>Thought experiment</li>
 
 <li>Tiddlywiki and GitHub Saver</li>
@@ -1074,7 +1078,7 @@ exports.startup = function() {
 <pre>Built from branch 'tiddlywiki-com' at commit ce8c03250cc2307fa12a992176629140c8391ab7 of https://github.com/Jermolene/TiddlyWiki5 at 2021-01-15 16:54:09 UTC
 </pre>
 </div>
-<div created="20211025203952913" modified="20211025214042282" title="$:/config/AutoSave">
+<div created="20211025203952913" modified="20211225180346299" title="$:/config/AutoSave">
 <pre>no</pre>
 </div>
 <div created="20210708160136130" modified="20210708160419260" tags="" title="$:/config/bimlas/disqus/counter-default" type="text/vnd.tiddlywiki">
@@ -14880,10 +14884,10 @@ background: center / contain no-repeat var(`--`url);
 <div created="20210222232608735" modified="20210708155051769" title="$:/state/addplugins/tab-1342078386">
 <pre>$:/config/OfficialPluginLibrary</pre>
 </div>
-<div created="20210201015607790" modified="20211025203846327" title="$:/state/advancedsearch/currentTab">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div created="20210201015607790" modified="20211225175820140" title="$:/state/advancedsearch/currentTab">
+<pre>$:/core/ui/AdvancedSearch/Standard</pre>
 </div>
-<div created="20210708155543353" modified="20210714023521516" title="$:/state/bimlas/disqus">
+<div created="20210708155543353" modified="20211225180339973" title="$:/state/bimlas/disqus">
 <pre></pre>
 </div>
 <div title="$:/state/consent-banner/accepted">
@@ -14940,17 +14944,17 @@ background: center / contain no-repeat var(`--`url);
 <div created="20210223225401153" modified="20210223225532818" title="$:/state/plugin-info-986122084-$:/plugins/tiddlywiki/consent-banner--1250884861">
 <pre>contents</pre>
 </div>
-<div created="20210118034554873" modified="20210321225036457" title="$:/state/showeditpreview">
-<pre>no</pre>
+<div created="20210118034554873" modified="20211225175413153" title="$:/state/showeditpreview">
+<pre>yes</pre>
 </div>
 <div created="20210126154220717" modified="20210126154220717" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20210205170603975" modified="20211025214037232" title="$:/state/sidebar">
+<div created="20210205170603975" modified="20211225175810194" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20210201015607791" modified="20211025203846327" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/System</pre>
+<div created="20210201015607791" modified="20211225175820140" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Standard</pre>
 </div>
 <div created="20210126154209893" modified="20210626160114771" title="$:/state/tab--1963855381">
 <pre>$:/core/ui/ControlPanel/Toolbars</pre>
@@ -15357,6 +15361,17 @@ Captain Disillusion guides children of all ages through the maze of visual faker
 
 ;Last videos uploaded :
 &lt;&lt;iframe-yt-list UUEOXxzW2vU0P-0THehuIIeg &gt;&gt;</pre>
+</div>
+<div created="20211221001033505" modified="20211221001233639" tags="[[2D Animation]] funny trashy" title="Cas van de Pol">
+<pre>''channel'' : https://www.youtube.com/user/CAS
+
+&lt;&lt;&lt;
+ cartoons!!!!! mostly!!! 
+&lt;&lt;&lt;
+
+;Last videos uploaded :
+
+&lt;&lt;iframe-yt-list PLkW4Wke7bt-GP3NyACXQTWJR1dr6P_TtO&gt;&gt;</pre>
 </div>
 <div created="20201112232530977" modified="20210708160656486" tags="count nicelist tags" title="category">
 <pre></pre>
@@ -17012,20 +17027,19 @@ text-align:left;
 --tiddlytask-done-symbol:&quot;✓&quot;;
 }</pre>
 </div>
-<div created="20210201151756677" creator="user" modified="20210205183654776" modifier="user" tags="$:/tags/Stylesheet TW5" title="Style Videos" type="text/css">
+<div created="20210201151756677" creator="user" modified="20211225180326485" modifier="user" tags="$:/tags/Stylesheet TW5" title="Style Videos" type="text/css">
 <pre>.container-iframe {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%;
+  aspect-ratio: 16/9;
+	/*if aspect ratio isnt supported in your browser, use this : */
+	/* padding-top: 56.25%; */
 }
 
 .container-iframe &gt; iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+  inset:0;
   width: 100%;
   height: 100%;
 }</pre>
@@ -17172,6 +17186,17 @@ see https://reidgould.github.io/tiddlywiki-dropboard/#Drag%20n'%20Drop%20In%20St
 &lt;$action-setfield $tiddler=&quot;$:/palette&quot; text={{{[{$:/palette}match&lt;lightPalette&gt;then&lt;darkPalette&gt;else&lt;lightPalette&gt;]}}}/&gt;
 &lt;/$button&gt;
 &lt;/$vars&gt;</pre>
+</div>
+<div created="20211225175015628" modified="20211225175807652" tags="Maker channel" title="there oughta be">
+<pre>''channel'' : https://www.youtube.com/channel/UCIWNx4p5mYJfjg986z228Qg
+
+&lt;&lt;&lt;
+ …a blog with awesome projects. A collection of overcomplicated devices nobody needs. A sanctum for all the things that did not get living room clearance, but oughta be seen by fellow nerds.
+&lt;&lt;&lt;
+
+;Last videos uploaded :
+
+&lt;&lt;iframe-yt-list UUIWNx4p5mYJfjg986z228Qg &gt;&gt;</pre>
 </div>
 <div created="20210129163018919" modified="20210706102022157" tags="category" title="Thought experiment">
 <pre></pre>
