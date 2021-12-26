@@ -249,8 +249,6 @@ Error message and password prompt
 
 <li>$:/GoogleAnalyticsDomain</li>
 
-<li>$:/Import</li>
-
 <li>$:/isEncrypted</li>
 
 <li>$:/kookma/macro/dbadge</li>
@@ -1078,7 +1076,7 @@ exports.startup = function() {
 <pre>Built from branch 'tiddlywiki-com' at commit ce8c03250cc2307fa12a992176629140c8391ab7 of https://github.com/Jermolene/TiddlyWiki5 at 2021-01-15 16:54:09 UTC
 </pre>
 </div>
-<div created="20211025203952913" modified="20211225180346299" title="$:/config/AutoSave">
+<div created="20211025203952913" modified="20211226014432584" title="$:/config/AutoSave">
 <pre>no</pre>
 </div>
 <div created="20210708160136130" modified="20210708160419260" tags="" title="$:/config/bimlas/disqus/counter-default" type="text/vnd.tiddlywiki">
@@ -11100,11 +11098,6 @@ category</pre>
 <div created="20210224003529369" modified="20210224003529369" title="$:/GoogleAnalyticsDomain">
 <pre>https://curatedvideos.github.io/</pre>
 </div>
-<div status="complete" title="$:/Import">
-<pre>The following tiddlers were imported:
-
-# [[$:/ThemeTweaks/style/read-only]]</pre>
-</div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
@@ -14944,13 +14937,13 @@ background: center / contain no-repeat var(`--`url);
 <div created="20210223225401153" modified="20210223225532818" title="$:/state/plugin-info-986122084-$:/plugins/tiddlywiki/consent-banner--1250884861">
 <pre>contents</pre>
 </div>
-<div created="20210118034554873" modified="20211225175413153" title="$:/state/showeditpreview">
+<div created="20210118034554873" modified="20211226012743820" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
 <div created="20210126154220717" modified="20210126154220717" title="$:/state/ShowPaletteEditor">
 <pre>yes</pre>
 </div>
-<div created="20210205170603975" modified="20211225175810194" title="$:/state/sidebar">
+<div created="20210205170603975" modified="20211226013336718" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210201015607791" modified="20211225175820140" title="$:/state/tab--1498284803">
@@ -14968,8 +14961,8 @@ background: center / contain no-repeat var(`--`url);
 <div created="20210302233222510" modified="20210302233222510" title="$:/state/tab--757196817">
 <pre>$:/plugins/kookma/commander/help/uicomp/snr</pre>
 </div>
-<div created="20210115194926272" modified="20211025211031178" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Plugins</pre>
+<div created="20210115194926272" modified="20211226012356666" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20210223225010417" modified="20210223225012960" title="$:/state/tab-1846149089">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Updates</pre>
@@ -15001,7 +14994,7 @@ background: center / contain no-repeat var(`--`url);
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div list="Home category" title="$:/StoryList">
+<div created="20211226013341230" list="[[Comedy Shorts]] [[Daniel Thrasher]]" modified="20211226013435431" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210223140033254" modified="20210706101139872" tags="TW5" title="$:/tags/Macro">
@@ -15432,7 +15425,7 @@ Take your skills to the highest levels with the CG Fast Track Tutorial Library: 
 <div created="20210126150045947" modified="20210706101836369" tags="category" title="Comedy">
 <pre></pre>
 </div>
-<div created="20201114212905719" modified="20210706101839671" tags="category" title="Comedy Shorts">
+<div created="20201114212905719" modified="20211226013254328" tags="category" title="Comedy Shorts">
 <pre></pre>
 </div>
 <div created="20210708155233484" edit-mode="no" list="Home" modified="20210708155242269" role="comment" title="Comment by '(anonymous)' on 'Home'">
@@ -17110,10 +17103,9 @@ Most of Technology Connections' videos usually consist of the host Alec discussi
 
 &lt;&lt;iframe-yt-list PLAYLIST_ID_HERE &gt;&gt;</pre>
 </div>
-<div created="20210525120921831" creator="user" list-before="$:/core/ui/ViewTemplate/body" modified="20210708160752029" modifier="user" tags="TW5 $:/tags/ViewTemplate" title="Template/Display tagged &amp; category">
+<div created="20210525120921831" creator="user" list-before="$:/core/ui/ViewTemplate/body" modified="20211226013427154" modifier="user" tags="TW5 $:/tags/ViewTemplate" title="Template/Display tagged &amp; category">
 <pre>&lt;$list filter=&quot;[all[current]tag[nicelist]]&quot;&gt;
 &lt;div class=&quot;nicelist&quot;&gt;
-
 
 &lt;$list filter=&quot;[all[current]tag[tags]!tag[count]]&quot;&gt;
 {{||(LTg)}}
@@ -17144,9 +17136,15 @@ Most of Technology Connections' videos usually consist of the host Alec discussi
 &lt;/$list&gt;
 
 &lt;$list filter=&quot;[all[current]tag[category]]&quot;&gt;
+&lt;$vars str1=&quot;[tag[channel]tag[&quot; str2=&lt;&lt;currentTiddler&gt;&gt; str3=&quot;]random[]]&quot;&gt;
+
+&lt;$vars str4={{{ [&lt;str1&gt;][&lt;str2&gt;][&lt;str3&gt;] +[join[]]}}}&gt;
+🎲 {{{ [subfilter&lt;str4&gt;] }}}
+&lt;/$vars&gt;
+&lt;/$vars&gt;
+
 {{||(LTg)}}
 &lt;/$list&gt;
-
 &lt;/$list&gt;</pre>
 </div>
 <div created="20210101192728514" modified="20210101194143017" tags="TW5" title="Templates">
