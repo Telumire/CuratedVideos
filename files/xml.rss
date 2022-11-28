@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <atom:link href="https://Telumire.github.io/CuratedVideos/files/xml.rss" rel="self" type="application/rss+xml" />
+  <title>Curated Videos</title>
+  <link>https://curated-videos.tiddlyhost.com</link>
+  <description>Hand-picked video content to explore beyond the algorithm</description>
+  <language>en-EN</language>
+  <lastBuildDate>Mon, 28 Nov 2022 16:04:10 GMT</lastBuildDate>
+	<item>
+      <title>Applied Science</title>
+      <description></description>
+      <category>channel/Chemistry/Electronics/Science/Technology</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Wed, 09 Nov 2022 15:20:02 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#Applied%20Science</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#Applied%20Science</guid>
+   </item><item>
+      <title>AngeTheGreat</title>
+      <description></description>
+      <category>channel/Dev Logs/Gaming</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Mon, 15 Aug 2022 20:45:19 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#AngeTheGreat</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#AngeTheGreat</guid>
+   </item><item>
+      <title>Alan Becker</title>
+      <description></description>
+      <category>2D Animation/3D Animation/channel</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Mon, 25 Apr 2022 22:39:53 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#Alan%20Becker</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#Alan%20Becker</guid>
+   </item><item>
+      <title>3Blue1Brown</title>
+      <description></description>
+      <category>channel/Education/Mathematics</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Sun, 30 Jan 2022 02:37:06 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#3Blue1Brown</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#3Blue1Brown</guid>
+   </item><item>
+      <title>ASMR Glow</title>
+      <description></description>
+      <category>ASMR/channel</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Tue, 25 Jan 2022 00:52:07 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#ASMR%20Glow</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#ASMR%20Glow</guid>
+   </item><item>
+      <title>asmr zeitgeist</title>
+      <description></description>
+      <category>ASMR/channel</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Mon, 24 Jan 2022 09:23:35 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#asmr%20zeitgeist</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#asmr%20zeitgeist</guid>
+   </item><item>
+      <title>Anwar Jibawi</title>
+      <description></description>
+      <category>channel/Comedy Shorts</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Mon, 24 Jan 2022 09:22:23 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#Anwar%20Jibawi</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#Anwar%20Jibawi</guid>
+   </item><item>
+      <title>antCGi</title>
+      <description></description>
+      <category>3D/channel/Maya/Tutorial</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Mon, 24 Jan 2022 09:21:42 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#antCGi</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#antCGi</guid>
+   </item><item>
+      <title>Andrew Rousso</title>
+      <description></description>
+      <category>channel/Comedy Shorts/funny</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Mon, 24 Jan 2022 09:20:57 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#Andrew%20Rousso</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#Andrew%20Rousso</guid>
+   </item><item>
+      <title>Alex</title>
+      <description></description>
+      <category>channel/Cooking</category>
+      <content:encoded><![CDATA[]]></content:encoded>
+	  <pubDate>Mon, 24 Jan 2022 09:20:25 GMT</pubDate>
+      <link>https://curated-videos.tiddlyhost.com#Alex</link>
+      <guid isPermaLink='true'>https://curated-videos.tiddlyhost.com#Alex</guid>
+   </item>
+</channel>
+</rss>
